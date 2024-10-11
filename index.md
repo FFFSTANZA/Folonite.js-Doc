@@ -13,7 +13,7 @@ At **Folonite Labs**, we focus on creating high-quality products like Folonite.j
 ## Core Documentation Pages
 
 - **[Getting Started](./getting-started.md)**: This section will guide you through setting up your first Folonite.js project.
-- **[Features](./features.md)**: Explore the key features that make Folonite.js unique, including dynamic SSR, streaming, and the CLI-based marketplace.
+- **[Features](features.md))**: Explore the key features that make Folonite.js unique, including dynamic SSR, streaming, and the CLI-based marketplace.
 - **[Tutorials](./tutorials.md)**: Step-by-step tutorials to help you get the most out of Folonite.js.
 
 ## Projects You Can Build with Folonite.js
