@@ -46,7 +46,7 @@ Here are a few key commands to use with Folonite.js:
 
 - **Check Folonite.js Version**:  
   ```bash
-  npm run folonite -- --version
+  npm run folonite version
   ```
 - **Install Dependencies**:  
   ```bash
