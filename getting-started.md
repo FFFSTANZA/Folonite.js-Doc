@@ -7,12 +7,82 @@ To get started, ensure that you have the following requirements installed:
 - **Node.js** (version 14.x or higher)
 - **npm** (version 6.x or higher)
 
-#### Installation
-Install Folonite.js globally via npm with a simple command:
+---
+
+## Installation
+
+### Install via npm
+
+To install **Folonite.js** using npm, run the following command:
 
 ```bash
 npm install folonite.js
 ```
+
+This will install the **Folonite.js** package inside the `node_modules/` directory.
+
+#### Transfer the Package
+
+After installation, transfer the **Folonite.js** package to your working directory:
+
+1. Navigate to the `node_modules/folonite.js` folder:
+
+```bash
+cd node_modules/folonite.js
+```
+
+2. Copy or move the **Folonite.js** package to your project directory:
+
+```bash
+cp -r . ../../your-project-directory/
+```
+
+Alternatively, move the package:
+
+```bash
+mv ./node_modules/folonite.js ./your-project-directory/
+```
+
+3. After transferring, initialize your project:
+
+```bash
+npm init
+```
+
+---
+
+### Install via GitHub
+
+You can also clone the **Folonite.js** repository directly from GitHub:
+
+1. Clone the **Folonite.js** repository:
+
+```bash
+git clone https://github.com/FFFSTANZA/folonite.js.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd folonite.js
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Once installed, run the following to start the server:
+
+```bash
+npm start
+```
+Both methods will set up **Folonite.js** in your project, and you'll be ready to start building with it!
+
+---
+
+
 
 #### Starting a Project
 After installing Folonite.js, you can create and start a project easily. Since Folonite.js doesn't require an `init` command or essential project structure creation, you can directly start working with it.
