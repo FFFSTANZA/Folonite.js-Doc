@@ -16,6 +16,7 @@ Folonite.js offers a range of core and advanced features that enable developers 
 6. [Advanced CLI (Command-Line Interface)](#advanced-cli-command-line-interface)
 7. [Auto Dependency Management](#auto-dependency-management)
 8. [API Handling with JSON Parsing and Authentication](#api-handling-with-json-parsing-and-authentication)
+9. [Backend Integration with Express](#backend-integration-with-express)
 
 ---
 
@@ -212,6 +213,30 @@ app.post('/api/products', createProduct); // Create a new product
 ### **Benefits**:
 - **Secure Your APIs**: Use authentication to protect sensitive routes.
 - **Easily Parse JSON Requests**: Folonite.js includes built-in support for parsing JSON request bodies, making it easy to handle form submissions and API requests.
+
+---
+
+
+### **9. How to Use the Folonite.js Backend**
+
+#### 1. **Enabling the Backend**
+To enable the backend in Folonite.js, simply change the configuration in the project’s settings:
+- Navigate to the `config.js` file.
+- Set the `backendEnabled` flag to `true`.
+
+Once enabled, the backend will start automatically when the application runs.
+
+#### 2. **Accessing the Backend**
+The backend runs on a default port (5000) or a custom port that you can set via an environment variable. You can access the backend API at `http://localhost:5000` (or the specified port).
+
+#### 3. **Customizing the Backend**
+The backend includes a basic setup to handle API requests. You can easily add or modify routes to suit your application’s needs. All backend logic can be extended as required.
+
+#### 4. **Disabling the Backend**
+If you don’t need the backend, you can disable it by setting the `backendEnabled` flag to `false` in the configuration. This allows you to run Folonite.js purely as a frontend framework without any backend logic.
+
+#### 5. **Environment Variables**
+You can control the backend port by setting the `BACKEND_PORT` environment variable. If not set, it will default to port 5000.
 
 ---
 
